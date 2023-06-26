@@ -16,6 +16,7 @@ public class Book {
     /*
     @Id 和 @GeneratedValue 注解被放在 id 字段上。
     这样，JPA（Java Persistence API）就知道 id 字段是数据库表的主键，并且其值应该由数据库自动生成。
+    提问
      */
 @Id
 @GeneratedValue(strategy = GenerationType.IDENTITY) //别加分号
